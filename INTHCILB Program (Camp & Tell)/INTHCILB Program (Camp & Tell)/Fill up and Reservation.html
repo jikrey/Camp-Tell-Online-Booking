@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fillup.css">
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> Camp & Tell Reservation Form</h1> </center>
+  <hr>
+<label><b> Firstname </b></label><br>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required /><br>
+
+<label><b> Middlename:</b> </label><br>
+<input type="text" name="middlename" placeholder="Middlename" size="15" required /><br>
+
+<label><b> Lastname:</b> </label><br>
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /><br>
+
+<label><b>Phone :</b></label><br>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>
+<input type="text" name="phone" placeholder="phone no." size="10"/ required><br>
+<div>
+<label><b>Package :</b></label>
+
+<select>
+<option value="Package">Package</option>
+<option value="Daytime">Daytime</option>
+<option value="Nightime">Nightime</option>
+</select>
+</div>
+<div>
+<label>
+<br>
+<b>Camping Type :</b>
+</label>
+<input type="radio" value="Solo" name="Camp" checked > Solo
+<input type="radio" value="Duo" name="Camp"> Duo
+<input type="radio" value="Group" name="Camp"> Group
+</div>
+<div>
+<br>
+<label>
+<b>Total Group Member Count :</b>
+</label>
+
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+</select>
+</div>
+<br>
+
+ <label for="Check in"><b>Check in</b></label><br>
+ <input type="text" placeholder="mm/dd/yy" name="Check in" required><br>
+
+    <label for="Check out"><b>Check out</b></label><br>
+    <input type="password" placeholder="mm/dd/yy" name="Check out" required><br>
+
+    <label><b>Suggestions:</b></label><br>
+    <textarea cols="80" rows="5" placeholder="Comments" value="Comments" required>
+    </textarea>
+    <button type="submit" class="bookbtn">Book now</button>
+</form>
+</body>
+</html>
